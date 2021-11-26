@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+a {
+    color:red;
+    font-size: 18px;
+}
+
+div ul li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.link1:hover {
+    color:lightblue;
+    font-weight: bold;
+}
+
+.link2:active {
+    color:red;
+    font-style: italic;
+}
+
+.link3:visited {
+    color: yellow;
+}
+
+.focus:focus {
+    color: green;
+    font-size: 20px;
+}
+
+nav {
+    background-color: darkblue;
+    width: 363px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.currentPage {
+    background-color:gray;
+}
+
+nav ul li a:hover {
+    background-color: lightblue;
+}
+
+input:focus {
+    background-color: aquamarine;
+}
